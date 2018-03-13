@@ -31,4 +31,16 @@
 		<servlet-name>FirstGenericServlet</servlet-name>
 		<url-pattern>First.html</url-pattern>
 	</servlet-mapping>
+	<servlet>
+		<servlet-name>NameDetails</servlet-name>
+		<servlet-class>NameDetailsForm</servlet-class>
+	</servlet> 
+	<servlet-mapping>
+		<servlet-name>NameDetails</servlet-name>
+		<url-pattern>/welcome</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>Name.html</welcome-file>
+		
+	</welcome-file-list>
 </web-app>
